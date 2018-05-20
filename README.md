@@ -11,8 +11,22 @@ Aggregation Engine:
     a. priority queue for storing incoming data.
     b. Treeset for holding buckets for min & max for aggregation data. The bucket size is configurable.
 
+Sample request data for AmountData:
 
+{
+  "amount": 4.2,
+  "timestamp": 1526805277630
+}
 
+Sample response data for statistics,
+
+{
+    "sum": 16.8,
+    "avg": 4.2,
+    "max": 4.2,
+    "min": 4.2,
+    "count": 4
+}
 
 
 
