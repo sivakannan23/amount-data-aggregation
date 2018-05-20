@@ -1,0 +1,53 @@
+{
+  "$id": "http://n26.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "sum": {
+      "$id": "/properties/sum",
+      "type": "integer",
+      "title": "The Sum Schema ",
+      "default": 0,
+      "examples": [
+        10
+      ]
+    },
+    "avg": {
+      "$id": "/properties/avg",
+      "type": "number",
+      "title": "The Avg Schema ",
+      "default": 0,
+      "examples": [
+        12.300000190734863
+      ]
+    },
+    "max": {
+      "$id": "/properties/max",
+      "type": "number",
+      "title": "The Max Schema ",
+      "default": 0,
+      "examples": [
+        12.300000190734863
+      ]
+    },
+    "min": {
+      "$id": "/properties/min",
+      "type": "number",
+      "title": "The Min Schema ",
+      "default": 0,
+      "examples": [
+        34.20000076293945
+      ]
+    },
+    "count": {
+      "$id": "/properties/count",
+      "type": "integer",
+      "title": "The Count Schema ",
+      "default": 0,
+      "examples": [
+        3
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "$id": "http://n26.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "amount": {
+      "$id": "/properties/amount",
+      "type": "number",
+      "title": "The Amount Schema ",
+      "default": 0,
+      "examples": [
+        12.300000190734863
+      ]
+    },
+    "timestamp": {
+      "$id": "/properties/timestamp",
+      "type": "integer",
+      "title": "The Timestamp Schema ",
+      "default": 0,
+      "examples": [
+        1526761103309
+      ]
+    }
+  }
+}
